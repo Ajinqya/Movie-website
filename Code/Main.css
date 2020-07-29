@@ -1,0 +1,156 @@
+:root{
+font-family: Source Sans Pro, sans-serif;
+    font-size: 25px;
+}
+html{
+    background-color: white;
+    z-index: -1;
+}
+body{
+    margin: 0;
+    padding: 1px;
+    background-image: url('Assets/bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 1% 7.3%;
+}
+nav{
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+ul.top{
+    display: flex;
+    list-style-type:none;
+}
+ul.top li {
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+header{
+    margin: 6% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-contain{
+    margin: 0;
+}
+h1.hero-text{
+    width: 200%;
+    font-size: 40px;
+    color: white;
+    margin-right: 0;
+}
+.button-bg{
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 20%;
+}
+.button{
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 10%;
+    text-align: center;
+    background: -webkit-linear-gradient(150deg, #08AEEA, #17CDC6,#2AF598);
+     background-clip: text;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left-contain p{
+    width: 70%;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+.ipad{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+.movie-heading{
+    margin-top: 10%;
+    display: flex;
+}
+.movie-heading h2{
+    margin-right: 5%;
+    align-self: center;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+.movie-heading span{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #2AF598;
+    align-self: center;
+}
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 15%;
+}
+img.poster{
+    width: 25%;
+}
+.cta{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.cta h1{
+    font-size: 40px;
+    margin: 0 20%;
+}
+.cta h1 span{
+    color: #2AF598;
+}
+.get-started-button{
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    background-image: linear-gradient(150deg, #08AEEA, #17CDC6,#2AF598);
+    border-radius: 5px;
+    color: white;
+    padding: 2%;
+    width: 15%;
+    text-align: center;
+    margin-bottom: 8%;
+    align-self: center;
+}
+footer{
+    margin: 1.5% 7.3%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+footer ul{
+    display: flex;
+
+}
+footer ul li.logo-bottom{
+    font-weight:bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+footer ul li{
+    list-style-type: none;
+    margin: 20px;
+    align-self: center;
+}
